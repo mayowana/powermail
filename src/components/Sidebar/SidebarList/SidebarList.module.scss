@@ -1,0 +1,38 @@
+.sidebar__list {
+  a {
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-left: 1.2rem;
+    }
+
+    p:last-of-type {
+        margin-left: 3rem;
+    }
+  }
+}
+
+.sidebar__list__active {
+    a {
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+    
+        p {
+          margin-left: 1.2rem;
+        }
+
+        p:last-of-type {
+            margin-left: 3rem;
+        }
+    }
+}

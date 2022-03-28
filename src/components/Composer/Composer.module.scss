@@ -1,0 +1,67 @@
+.composer {
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  z-index: 90;
+  width: 35%;
+}
+
+.compose__header {
+  background-color: #af4448;
+  padding: 0.5rem;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    margin: 0.5rem 0;
+    color: white;
+  }
+}
+
+.send__button {
+  text-transform: none;
+}
+
+.compose__form {
+  display: flex;
+  flex-direction: column;
+  input {
+    max-width: 92.9%;
+  }
+
+  input[type='text']{
+      padding: 1rem
+  } 
+
+  input[type='textarea']{
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 8rem;
+      padding-right: 1rem;
+  }
+}
+
+.radio__box {
+    p{
+        padding-left: 1rem;
+    }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.radio__item {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.send__box {
+    background-color: green;
+    padding: 0.5rem;
+}
